@@ -1,0 +1,21 @@
+<application>
+  <component name="EditorSettings">
+    <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
+  </component>
+  <component name="TodoConfiguration">
+    <pattern pattern="\btodo\b.*" />
+    <pattern pattern="\bfixme\b.*" />
+    <pattern useCustomColors="true" pattern="\bmdc\b.*">
+      <option name="FOREGROUND" value="46bf26" />
+      <option name="FONT_TYPE" value="3" />
+      <option name="ERROR_STRIPE_COLOR" value="379713" />
+    </pattern>
+    <filter name="Only MDC">
+      <pattern index="2" />
+    </filter>
+    <filter name="Only Default TODO">
+      <pattern index="1" />
+      <pattern index="0" />
+    </filter>
+  </component>
+</application>

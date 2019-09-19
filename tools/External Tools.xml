@@ -1,0 +1,16 @@
+<toolSet name="External Tools">
+  <tool name="UploadScript" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="bash" />
+      <option name="PARAMETERS" value="uploadToPi.sh" />
+      <option name="WORKING_DIRECTORY" value="C:/Users/modac/Documents/OneDriveSync/Arbeit/Biogas4null/BG40PhpProject/res" />
+    </exec>
+  </tool>
+  <tool name="RemoteSSHXDebug" description="Tunnel port 9000 for XDebug session to remote host" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="ssh.exe" />
+      <option name="PARAMETERS" value="-R 9000:127.0.0.1:9000 -p 22303 -i C:\Users\modac\.ssh\id_rsa modac.myddns.me" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>
